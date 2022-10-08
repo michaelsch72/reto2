@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reto1</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/peticiones.js"></script>
+<link rel="stylesheet" href="./css/estilos.css">
+<body>
+	<div id="contenedor_principal">
+
+	<h1 id="titulo">Reto1</h1>
+
+	Id de Cliente <br><input type="number" id="idCliente"><br>
+	Nombre de Cliente <input type="text" id="nombreCliente"><br>
+	Correo de Cliente <input type="text" id="mailCliente"><br>
+	Edad de Cliente <input type="number" id="edadCliente"><br>
+
+	<button id="butonGuardar" onclick="guardarCliente()">GUARDAR</button>
+
+	<button id="butonEditar" onclick="editarCliente()">ACTUALIZAR</button>
+	<button id="butonMostrar" onclick="leerClientes()">MOSTRAR</button>
+	</div>
+	<div id="listaClientes">
+		<h1> Cliente</h1>
+
+	</div>
+    
+</body>
+</html>
